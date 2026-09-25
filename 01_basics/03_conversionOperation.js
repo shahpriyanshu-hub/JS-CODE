@@ -10,3 +10,13 @@ console.log(valueInNumber)
 // 33 => 33
 // "33" => NaN (not an number) but the type of NaN is number
 // true => 1; false => 0
+
+
+let LoggedIn = 1 
+
+let booleanIsLoggedIn = Boolean(LoggedIn)
+console.log(booleanIsLoggedIn)
+
+
+/******************operation******************** */
+
