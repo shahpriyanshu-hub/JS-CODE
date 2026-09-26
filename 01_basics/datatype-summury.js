@@ -55,3 +55,19 @@ usertwo.email = "priyanshushah878@google.com"
 
 console.log(userone.email)
 console.log(usertwo.email)
+
+let userOne = {
+    name: "vivek",
+    age:25,
+}
+
+let userTwo = {
+    ...userOne
+}
+
+console.log(userOne) // vivek
+console.log(userTwo) // vivek 
+ userOne.name = "priyanshu"
+
+ console.log(userOne) // priyanshu 
+ console.log(userTwo) // vivek
